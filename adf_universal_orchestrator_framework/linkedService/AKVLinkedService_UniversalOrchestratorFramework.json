@@ -1,0 +1,11 @@
+{
+	"name": "AKVLinkedService_UniversalOrchestratorFramework",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://adf-framework.vault.azure.net/"
+		}
+	}
+}
